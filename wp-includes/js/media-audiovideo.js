@@ -790,6 +790,9 @@ module.exports = VideoDetails;
 /******/ 	}
 /******/ 	
 /************************************************************************/
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+(() => {
 /**
  * @output wp-includes/js/media-audiovideo.js
  */
@@ -1074,6 +1077,8 @@ media.view.MediaFrame.VideoDetails = __webpack_require__( 8646 );
 media.view.MediaDetails = __webpack_require__( 9467 );
 media.view.AudioDetails = __webpack_require__( 3713 );
 media.view.VideoDetails = __webpack_require__( 5836 );
+
+})();
 
 /******/ })()
 ;

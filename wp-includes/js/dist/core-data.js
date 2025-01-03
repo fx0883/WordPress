@@ -653,6 +653,8 @@ module.exports = window["wp"]["isShallowEqual"];
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+(() => {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
@@ -816,16 +818,16 @@ __webpack_require__.d(resolvers_namespaceObject, {
   getUserPatternCategories: () => (resolvers_getUserPatternCategories)
 });
 
-;// external ["wp","data"]
+;// CONCATENATED MODULE: external ["wp","data"]
 const external_wp_data_namespaceObject = window["wp"]["data"];
 // EXTERNAL MODULE: ./node_modules/fast-deep-equal/es6/index.js
 var es6 = __webpack_require__(7734);
 var es6_default = /*#__PURE__*/__webpack_require__.n(es6);
-;// external ["wp","compose"]
+;// CONCATENATED MODULE: external ["wp","compose"]
 const external_wp_compose_namespaceObject = window["wp"]["compose"];
 // EXTERNAL MODULE: ./node_modules/@wordpress/undo-manager/build-module/index.js
 var build_module = __webpack_require__(6689);
-;// ./node_modules/@wordpress/core-data/build-module/utils/if-matching-action.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/utils/if-matching-action.js
 /** @typedef {import('../types').AnyFunction} AnyFunction */
 
 /**
@@ -845,7 +847,7 @@ const ifMatchingAction = isMatch => reducer => (state, action) => {
 };
 /* harmony default export */ const if_matching_action = (ifMatchingAction);
 
-;// ./node_modules/@wordpress/core-data/build-module/utils/replace-action.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/utils/replace-action.js
 /** @typedef {import('../types').AnyFunction} AnyFunction */
 
 /**
@@ -861,7 +863,7 @@ const replaceAction = replacer => reducer => (state, action) => {
 };
 /* harmony default export */ const replace_action = (replaceAction);
 
-;// ./node_modules/@wordpress/core-data/build-module/utils/conservative-map-item.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/utils/conservative-map-item.js
 /**
  * External dependencies
  */
@@ -907,7 +909,7 @@ function conservativeMapItem(item, nextItem) {
   return result;
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/utils/on-sub-key.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/utils/on-sub-key.js
 /** @typedef {import('../types').AnyFunction} AnyFunction */
 
 /**
@@ -939,7 +941,7 @@ const onSubKey = actionProperty => reducer => (state = {}, action) => {
 };
 /* harmony default export */ const on_sub_key = (onSubKey);
 
-;// ./node_modules/tslib/tslib.es6.mjs
+;// CONCATENATED MODULE: ./node_modules/tslib/tslib.es6.mjs
 /******************************************************************************
 Copyright (c) Microsoft Corporation.
 
@@ -1319,7 +1321,7 @@ function __disposeResources(env) {
   __disposeResources,
 });
 
-;// ./node_modules/lower-case/dist.es2015/index.js
+;// CONCATENATED MODULE: ./node_modules/lower-case/dist.es2015/index.js
 /**
  * Source: ftp://ftp.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt
  */
@@ -1368,7 +1370,7 @@ function lowerCase(str) {
     return str.toLowerCase();
 }
 
-;// ./node_modules/no-case/dist.es2015/index.js
+;// CONCATENATED MODULE: ./node_modules/no-case/dist.es2015/index.js
 
 // Support camel case ("camelCase" -> "camel Case" and "CAMELCase" -> "CAMEL Case").
 var DEFAULT_SPLIT_REGEXP = [/([a-z0-9])([A-Z])/g, /([A-Z])([A-Z][a-z])/g];
@@ -1400,7 +1402,7 @@ function replace(input, re, value) {
     return re.reduce(function (input, re) { return input.replace(re, value); }, input);
 }
 
-;// ./node_modules/upper-case-first/dist.es2015/index.js
+;// CONCATENATED MODULE: ./node_modules/upper-case-first/dist.es2015/index.js
 /**
  * Upper case the first character of an input string.
  */
@@ -1408,7 +1410,7 @@ function upperCaseFirst(input) {
     return input.charAt(0).toUpperCase() + input.substr(1);
 }
 
-;// ./node_modules/capital-case/dist.es2015/index.js
+;// CONCATENATED MODULE: ./node_modules/capital-case/dist.es2015/index.js
 
 
 
@@ -1420,7 +1422,7 @@ function capitalCase(input, options) {
     return noCase(input, __assign({ delimiter: " ", transform: capitalCaseTransform }, options));
 }
 
-;// ./node_modules/pascal-case/dist.es2015/index.js
+;// CONCATENATED MODULE: ./node_modules/pascal-case/dist.es2015/index.js
 
 
 function pascalCaseTransform(input, index) {
@@ -1439,19 +1441,19 @@ function pascalCase(input, options) {
     return noCase(input, __assign({ delimiter: "", transform: pascalCaseTransform }, options));
 }
 
-;// external ["wp","apiFetch"]
+;// CONCATENATED MODULE: external ["wp","apiFetch"]
 const external_wp_apiFetch_namespaceObject = window["wp"]["apiFetch"];
 var external_wp_apiFetch_default = /*#__PURE__*/__webpack_require__.n(external_wp_apiFetch_namespaceObject);
-;// external ["wp","i18n"]
+;// CONCATENATED MODULE: external ["wp","i18n"]
 const external_wp_i18n_namespaceObject = window["wp"]["i18n"];
-;// external ["wp","richText"]
+;// CONCATENATED MODULE: external ["wp","richText"]
 const external_wp_richText_namespaceObject = window["wp"]["richText"];
-;// ./node_modules/@wordpress/core-data/node_modules/uuid/dist/esm-browser/native.js
+;// CONCATENATED MODULE: ./node_modules/uuid/dist/esm-browser/native.js
 const randomUUID = typeof crypto !== 'undefined' && crypto.randomUUID && crypto.randomUUID.bind(crypto);
 /* harmony default export */ const esm_browser_native = ({
   randomUUID
 });
-;// ./node_modules/@wordpress/core-data/node_modules/uuid/dist/esm-browser/rng.js
+;// CONCATENATED MODULE: ./node_modules/uuid/dist/esm-browser/rng.js
 // Unique ID creation requires a high quality random # generator. In the browser we therefore
 // require the crypto API and do not support built-in fallback to lower quality random number
 // generators (like Math.random()).
@@ -1470,7 +1472,7 @@ function rng() {
 
   return getRandomValues(rnds8);
 }
-;// ./node_modules/@wordpress/core-data/node_modules/uuid/dist/esm-browser/stringify.js
+;// CONCATENATED MODULE: ./node_modules/uuid/dist/esm-browser/stringify.js
 
 /**
  * Convert array of 16 byte values to UUID string format of the form:
@@ -1504,7 +1506,7 @@ function stringify(arr, offset = 0) {
 }
 
 /* harmony default export */ const esm_browser_stringify = ((/* unused pure expression or super */ null && (stringify)));
-;// ./node_modules/@wordpress/core-data/node_modules/uuid/dist/esm-browser/v4.js
+;// CONCATENATED MODULE: ./node_modules/uuid/dist/esm-browser/v4.js
 
 
 
@@ -1534,12 +1536,12 @@ function v4(options, buf, offset) {
 }
 
 /* harmony default export */ const esm_browser_v4 = (v4);
-;// external ["wp","url"]
+;// CONCATENATED MODULE: external ["wp","url"]
 const external_wp_url_namespaceObject = window["wp"]["url"];
-;// external ["wp","deprecated"]
+;// CONCATENATED MODULE: external ["wp","deprecated"]
 const external_wp_deprecated_namespaceObject = window["wp"]["deprecated"];
 var external_wp_deprecated_default = /*#__PURE__*/__webpack_require__.n(external_wp_deprecated_namespaceObject);
-;// ./node_modules/@wordpress/core-data/build-module/utils/set-nested-value.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/utils/set-nested-value.js
 /**
  * Sets the value at path of object.
  * If a portion of path doesn’t exist, it’s created.
@@ -1583,7 +1585,7 @@ function setNestedValue(object, path, value) {
   return object;
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/utils/get-nested-value.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/utils/get-nested-value.js
 /**
  * Helper util to return a value from a certain path of the object.
  * Path is specified as either:
@@ -1608,7 +1610,7 @@ function getNestedValue(object, path, defaultValue) {
   return value !== undefined ? value : defaultValue;
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/queried-data/actions.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/queried-data/actions.js
 /**
  * Returns an action object used in signalling that items have been received.
  *
@@ -1665,7 +1667,7 @@ function receiveQueriedItems(items, query = {}, edits, meta) {
   };
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/batch/default-processor.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/batch/default-processor.js
 /**
  * WordPress dependencies
  */
@@ -1743,7 +1745,7 @@ async function defaultProcessor(requests) {
   return results;
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/batch/create-batch.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/batch/create-batch.js
 /**
  * Internal dependencies
  */
@@ -1908,7 +1910,7 @@ class ObservableSet {
   }
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/name.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/name.js
 /**
  * The reducer key used by core data in store registration.
  * This is defined in a separate file to avoid cycle-dependency
@@ -1917,7 +1919,7 @@ class ObservableSet {
  */
 const STORE_NAME = 'core';
 
-;// ./node_modules/@wordpress/core-data/build-module/actions.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/actions.js
 /**
  * External dependencies
  */
@@ -2756,7 +2758,7 @@ const receiveRevisions = (kind, name, recordKey, records, query, invalidateCache
   });
 };
 
-;// ./node_modules/@wordpress/core-data/build-module/entities.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/entities.js
 /**
  * External dependencies
  */
@@ -3266,7 +3268,7 @@ const getOrLoadEntitiesConfig = (kind, name) => async ({
   return configs;
 };
 
-;// ./node_modules/@wordpress/core-data/build-module/utils/get-normalized-comma-separable.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/utils/get-normalized-comma-separable.js
 /**
  * Given a value which can be specified as one or the other of a comma-separated
  * string or an array, returns a value normalized to an array of strings, or
@@ -3286,7 +3288,7 @@ function getNormalizedCommaSeparable(value) {
 }
 /* harmony default export */ const get_normalized_comma_separable = (getNormalizedCommaSeparable);
 
-;// ./node_modules/@wordpress/core-data/build-module/utils/with-weak-map-cache.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/utils/with-weak-map-cache.js
 /**
  * Given a function, returns an enhanced function which caches the result and
  * tracks in WeakMap. The result is only cached if the original function is
@@ -3317,7 +3319,7 @@ function withWeakMapCache(fn) {
 }
 /* harmony default export */ const with_weak_map_cache = (withWeakMapCache);
 
-;// ./node_modules/@wordpress/core-data/build-module/queried-data/get-query-parts.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/queried-data/get-query-parts.js
 /**
  * WordPress dependencies
  */
@@ -3421,7 +3423,7 @@ function getQueryParts(query) {
 }
 /* harmony default export */ const get_query_parts = (with_weak_map_cache(getQueryParts));
 
-;// ./node_modules/@wordpress/core-data/build-module/queried-data/reducer.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/queried-data/reducer.js
 /**
  * WordPress dependencies
  */
@@ -3657,7 +3659,7 @@ const queries = (state = {}, action) => {
   queries
 }));
 
-;// ./node_modules/@wordpress/core-data/build-module/reducer.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/reducer.js
 /**
  * External dependencies
  */
@@ -4261,7 +4263,7 @@ function registeredPostMeta(state = {}, action) {
 // EXTERNAL MODULE: ./node_modules/equivalent-key-map/equivalent-key-map.js
 var equivalent_key_map = __webpack_require__(3249);
 var equivalent_key_map_default = /*#__PURE__*/__webpack_require__.n(equivalent_key_map);
-;// ./node_modules/@wordpress/core-data/build-module/queried-data/selectors.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/queried-data/selectors.js
 /**
  * External dependencies
  */
@@ -4396,7 +4398,7 @@ function getQueriedTotalPages(state, query = {}) {
   return (_state$queries$contex2 = state.queries?.[context]?.[stableKey]?.meta?.totalPages) !== null && _state$queries$contex2 !== void 0 ? _state$queries$contex2 : null;
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/utils/is-numeric-id.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/utils/is-numeric-id.js
 /**
  * Checks argument to determine if it's a numeric ID.
  * For example, '123' is a numeric ID, but '123abc' is not.
@@ -4408,7 +4410,7 @@ function isNumericID(id) {
   return /^\s*\d+\s*$/.test(id);
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/utils/is-raw-attribute.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/utils/is-raw-attribute.js
 /**
  * Checks whether the attribute is a "raw" attribute or not.
  *
@@ -4421,7 +4423,7 @@ function isRawAttribute(entity, attribute) {
   return (entity.rawAttributes || []).includes(attribute);
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/utils/user-permissions.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/utils/user-permissions.js
 const ALLOWED_RESOURCE_ACTIONS = ['create', 'read', 'update', 'delete'];
 function getUserPermissionsFromAllowHeader(allowedMethods) {
   const permissions = {};
@@ -4444,7 +4446,7 @@ function getUserPermissionCacheKey(action, resource, id) {
   return key;
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/selectors.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/selectors.js
 /**
  * WordPress dependencies
  */
@@ -5511,7 +5513,7 @@ const getRevision = (0,external_wp_data_namespaceObject.createSelector)((state, 
   return [state.entities.records?.[kind]?.[name]?.revisions?.[recordKey]?.items?.[context]?.[revisionKey], state.entities.records?.[kind]?.[name]?.revisions?.[recordKey]?.itemIsComplete?.[context]?.[revisionKey]];
 });
 
-;// ./node_modules/@wordpress/core-data/build-module/private-selectors.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/private-selectors.js
 /**
  * WordPress dependencies
  */
@@ -5593,7 +5595,7 @@ function getRegisteredPostMeta(state, postType) {
   return (_state$registeredPost = state.registeredPostMeta?.[postType]) !== null && _state$registeredPost !== void 0 ? _state$registeredPost : {};
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/private-actions.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/private-actions.js
 /**
  * Returns an action object used in signalling that the registered post meta
  * fields for a post type have been received.
@@ -5611,7 +5613,7 @@ function receiveRegisteredPostMeta(postType, registeredPostMeta) {
   };
 }
 
-;// ./node_modules/camel-case/dist.es2015/index.js
+;// CONCATENATED MODULE: ./node_modules/camel-case/dist.es2015/index.js
 
 
 function camelCaseTransform(input, index) {
@@ -5629,9 +5631,9 @@ function camelCase(input, options) {
     return pascalCase(input, __assign({ transform: camelCaseTransform }, options));
 }
 
-;// external ["wp","htmlEntities"]
+;// CONCATENATED MODULE: external ["wp","htmlEntities"]
 const external_wp_htmlEntities_namespaceObject = window["wp"]["htmlEntities"];
-;// ./node_modules/@wordpress/core-data/build-module/utils/forward-resolver.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/utils/forward-resolver.js
 /**
  * Higher-order function which forward the resolution to another resolver with the same arguments.
  *
@@ -5646,7 +5648,7 @@ const forwardResolver = resolverName => (...args) => async ({
 };
 /* harmony default export */ const forward_resolver = (forwardResolver);
 
-;// ./node_modules/@wordpress/core-data/build-module/fetch/__experimental-fetch-link-suggestions.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/fetch/__experimental-fetch-link-suggestions.js
 /**
  * WordPress dependencies
  */
@@ -5829,7 +5831,7 @@ function tokenize(text) {
   return text.toLowerCase().match(/[\p{L}\p{N}]+/gu) || [];
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/fetch/__experimental-fetch-url-data.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/fetch/__experimental-fetch-url-data.js
 /**
  * WordPress dependencies
  */
@@ -5898,7 +5900,7 @@ const fetchUrlData = async (url, options = {}) => {
 };
 /* harmony default export */ const _experimental_fetch_url_data = (fetchUrlData);
 
-;// ./node_modules/@wordpress/core-data/build-module/fetch/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/fetch/index.js
 /**
  * External dependencies
  */
@@ -5920,7 +5922,7 @@ async function fetchBlockPatterns() {
   return restPatterns.map(pattern => Object.fromEntries(Object.entries(pattern).map(([key, value]) => [camelCase(key), value])));
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/resolvers.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/resolvers.js
 /**
  * External dependencies
  */
@@ -6685,7 +6687,7 @@ const resolvers_getRegisteredPostMeta = postType => async ({
   }
 };
 
-;// ./node_modules/@wordpress/core-data/build-module/locks/utils.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/locks/utils.js
 function deepCopyLocksTreePath(tree, path) {
   const newTree = {
     ...tree
@@ -6747,7 +6749,7 @@ function hasConflictingLock({
   return false;
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/locks/reducer.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/locks/reducer.js
 /**
  * Internal dependencies
  */
@@ -6818,7 +6820,7 @@ function locks(state = DEFAULT_STATE, action) {
   return state;
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/locks/selectors.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/locks/selectors.js
 /**
  * Internal dependencies
  */
@@ -6859,7 +6861,7 @@ function isLockAvailable(state, store, path, {
   return true;
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/locks/engine.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/locks/engine.js
 /**
  * Internal dependencies
  */
@@ -6921,7 +6923,7 @@ function createLocks() {
   };
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/locks/actions.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/locks/actions.js
 /**
  * Internal dependencies
  */
@@ -6942,9 +6944,9 @@ function createLocksActions() {
   };
 }
 
-;// external ["wp","privateApis"]
+;// CONCATENATED MODULE: external ["wp","privateApis"]
 const external_wp_privateApis_namespaceObject = window["wp"]["privateApis"];
-;// ./node_modules/@wordpress/core-data/build-module/lock-unlock.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/lock-unlock.js
 /**
  * WordPress dependencies
  */
@@ -6954,18 +6956,18 @@ const {
   unlock
 } = (0,external_wp_privateApis_namespaceObject.__dangerousOptInToUnstableAPIsOnlyForCoreModules)('I acknowledge private features are not for use in themes or plugins and doing so will break in the next version of WordPress.', '@wordpress/core-data');
 
-;// external ["wp","element"]
+;// CONCATENATED MODULE: external ["wp","element"]
 const external_wp_element_namespaceObject = window["wp"]["element"];
-;// ./node_modules/@wordpress/core-data/build-module/entity-context.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/entity-context.js
 /**
  * WordPress dependencies
  */
 
 const EntityContext = (0,external_wp_element_namespaceObject.createContext)({});
 
-;// external "ReactJSXRuntime"
+;// CONCATENATED MODULE: external "ReactJSXRuntime"
 const external_ReactJSXRuntime_namespaceObject = window["ReactJSXRuntime"];
-;// ./node_modules/@wordpress/core-data/build-module/entity-provider.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/entity-provider.js
 /**
  * WordPress dependencies
  */
@@ -7010,7 +7012,7 @@ function EntityProvider({
   });
 }
 
-;// ./node_modules/memize/dist/index.js
+;// CONCATENATED MODULE: ./node_modules/memize/dist/index.js
 /**
  * Memize options object.
  *
@@ -7172,7 +7174,7 @@ function memize(fn, options) {
 
 
 
-;// ./node_modules/@wordpress/core-data/build-module/hooks/memoize.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/hooks/memoize.js
 /**
  * External dependencies
  */
@@ -7181,7 +7183,7 @@ function memize(fn, options) {
 // re-export due to restrictive esModuleInterop setting
 /* harmony default export */ const memoize = (memize);
 
-;// ./node_modules/@wordpress/core-data/build-module/hooks/constants.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/hooks/constants.js
 let Status = /*#__PURE__*/function (Status) {
   Status["Idle"] = "IDLE";
   Status["Resolving"] = "RESOLVING";
@@ -7190,7 +7192,7 @@ let Status = /*#__PURE__*/function (Status) {
   return Status;
 }({});
 
-;// ./node_modules/@wordpress/core-data/build-module/hooks/use-query-select.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/hooks/use-query-select.js
 /**
  * WordPress dependencies
  */
@@ -7296,7 +7298,7 @@ const enrichSelectors = memoize(selectors => {
   return resolvers;
 });
 
-;// ./node_modules/@wordpress/core-data/build-module/hooks/use-entity-record.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/hooks/use-entity-record.js
 /**
  * WordPress dependencies
  */
@@ -7459,7 +7461,7 @@ function __experimentalUseEntityRecord(kind, name, recordId, options) {
   return useEntityRecord(kind, name, recordId, options);
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/hooks/use-entity-records.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/hooks/use-entity-records.js
 /**
  * WordPress dependencies
  */
@@ -7602,10 +7604,10 @@ function useEntityRecordsWithPermissions(kind, name, queryArgs = {}, options = {
   };
 }
 
-;// external ["wp","warning"]
+;// CONCATENATED MODULE: external ["wp","warning"]
 const external_wp_warning_namespaceObject = window["wp"]["warning"];
 var external_wp_warning_default = /*#__PURE__*/__webpack_require__.n(external_wp_warning_namespaceObject);
-;// ./node_modules/@wordpress/core-data/build-module/hooks/use-resource-permissions.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/hooks/use-resource-permissions.js
 /**
  * WordPress dependencies
  */
@@ -7761,9 +7763,9 @@ function __experimentalUseResourcePermissions(resource, id) {
   return useResourcePermissions(resource, id);
 }
 
-;// external ["wp","blocks"]
+;// CONCATENATED MODULE: external ["wp","blocks"]
 const external_wp_blocks_namespaceObject = window["wp"]["blocks"];
-;// ./node_modules/@wordpress/core-data/build-module/hooks/use-entity-id.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/hooks/use-entity-id.js
 /**
  * WordPress dependencies
  */
@@ -7786,9 +7788,9 @@ function useEntityId(kind, name) {
   return context?.[kind]?.[name];
 }
 
-;// external ["wp","blockEditor"]
+;// CONCATENATED MODULE: external ["wp","blockEditor"]
 const external_wp_blockEditor_namespaceObject = window["wp"]["blockEditor"];
-;// ./node_modules/@wordpress/core-data/build-module/footnotes/get-rich-text-values-cached.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/footnotes/get-rich-text-values-cached.js
 /**
  * WordPress dependencies
  */
@@ -7822,7 +7824,7 @@ function getRichTextValuesCached(block) {
   return cache.get(block);
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/footnotes/get-footnotes-order.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/footnotes/get-footnotes-order.js
 /**
  * Internal dependencies
  */
@@ -7858,7 +7860,7 @@ function getFootnotesOrder(blocks) {
   return blocks.flatMap(getBlockFootnotesOrder);
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/footnotes/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/footnotes/index.js
 /**
  * WordPress dependencies
  */
@@ -7970,7 +7972,7 @@ function updateFootnotesFromMeta(blocks, meta) {
   };
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/hooks/use-entity-block-editor.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/hooks/use-entity-block-editor.js
 /**
  * WordPress dependencies
  */
@@ -8103,7 +8105,7 @@ function useEntityBlockEditor(kind, name, {
   return [blocks, onInput, onChange];
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/hooks/use-entity-prop.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/hooks/use-entity-prop.js
 /**
  * WordPress dependencies
  */
@@ -8162,7 +8164,7 @@ function useEntityProp(kind, name, prop, _id) {
   return [value, setValue, fullValue];
 }
 
-;// ./node_modules/@wordpress/core-data/build-module/hooks/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/hooks/index.js
 
 
 
@@ -8170,7 +8172,7 @@ function useEntityProp(kind, name, prop, _id) {
 
 
 
-;// ./node_modules/@wordpress/core-data/build-module/private-apis.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/private-apis.js
 /**
  * Internal dependencies
  */
@@ -8181,7 +8183,7 @@ lock(privateApis, {
   useEntityRecordsWithPermissions: useEntityRecordsWithPermissions
 });
 
-;// ./node_modules/@wordpress/core-data/build-module/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/core-data/build-module/index.js
 /**
  * WordPress dependencies
  */
@@ -8274,6 +8276,8 @@ unlock(store).registerPrivateActions(private_actions_namespaceObject);
 
 
 
+
+})();
 
 (window.wp = window.wp || {}).coreData = __webpack_exports__;
 /******/ })()

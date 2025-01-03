@@ -42,9 +42,9 @@ __webpack_require__.d(__webpack_exports__, {
   privateApis: () => (/* reexport */ privateApis)
 });
 
-;// external ["wp","element"]
+;// CONCATENATED MODULE: external ["wp","element"]
 const external_wp_element_namespaceObject = window["wp"]["element"];
-;// ./node_modules/@babel/runtime/helpers/esm/extends.js
+;// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/extends.js
 function extends_extends() {
   extends_extends = Object.assign ? Object.assign.bind() : function (target) {
     for (var i = 1; i < arguments.length; i++) {
@@ -59,7 +59,7 @@ function extends_extends() {
   };
   return extends_extends.apply(this, arguments);
 }
-;// ./node_modules/history/index.js
+;// CONCATENATED MODULE: ./node_modules/history/index.js
 
 
 /**
@@ -849,9 +849,9 @@ function parsePath(path) {
 
 
 
-;// external ["wp","url"]
+;// CONCATENATED MODULE: external ["wp","url"]
 const external_wp_url_namespaceObject = window["wp"]["url"];
-;// ./node_modules/@wordpress/router/build-module/history.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/router/build-module/history.js
 /* wp:polyfill */
 /**
  * External dependencies
@@ -913,9 +913,9 @@ history_history.replace = replace;
 history_history.getLocationWithParams = getLocationWithParams;
 /* harmony default export */ const build_module_history = (history_history);
 
-;// external "ReactJSXRuntime"
+;// CONCATENATED MODULE: external "ReactJSXRuntime"
 const external_ReactJSXRuntime_namespaceObject = window["ReactJSXRuntime"];
-;// ./node_modules/@wordpress/router/build-module/router.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/router/build-module/router.js
 /**
  * WordPress dependencies
  */
@@ -947,9 +947,9 @@ function RouterProvider({
   });
 }
 
-;// external ["wp","privateApis"]
+;// CONCATENATED MODULE: external ["wp","privateApis"]
 const external_wp_privateApis_namespaceObject = window["wp"]["privateApis"];
-;// ./node_modules/@wordpress/router/build-module/lock-unlock.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/router/build-module/lock-unlock.js
 /**
  * WordPress dependencies
  */
@@ -959,7 +959,7 @@ const {
   unlock
 } = (0,external_wp_privateApis_namespaceObject.__dangerousOptInToUnstableAPIsOnlyForCoreModules)('I acknowledge private features are not for use in themes or plugins and doing so will break in the next version of WordPress.', '@wordpress/router');
 
-;// ./node_modules/@wordpress/router/build-module/private-apis.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/router/build-module/private-apis.js
 /**
  * Internal dependencies
  */
@@ -972,7 +972,7 @@ lock(privateApis, {
   RouterProvider: RouterProvider
 });
 
-;// ./node_modules/@wordpress/router/build-module/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/router/build-module/index.js
 
 
 (window.wp = window.wp || {}).router = __webpack_exports__;

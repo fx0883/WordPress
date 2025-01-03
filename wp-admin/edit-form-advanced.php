@@ -25,7 +25,14 @@ $current_screen->is_block_editor( false );
 if ( is_multisite() ) {
 	add_action( 'admin_footer', '_admin_notice_post_locked' );
 } else {
-	if ( get_user_count() > 1 ) {
+	$check_users = get_users(
+		array(
+			'fields' => 'ID',
+			'number' => 2,
+		)
+	);
+
+	if ( count( $check_users ) > 1 ) {
 		add_action( 'admin_footer', '_admin_notice_post_locked' );
 	}
 
@@ -539,13 +546,7 @@ do_action( 'edit_form_top', $post );
 	?>
 	<label class="screen-reader-text" id="title-prompt-text" for="title"><?php echo $title_placeholder; ?></label>
 	<input type="text" name="post_title" size="30" value="<?php echo esc_attr( $post->post_title ); ?>" id="title" spellcheck="true" autocomplete="off" />
-	<?php
-	if ( post_type_supports( $post_type, 'editor' ) ) {
-		?>
-		<a href="#content" class="button-secondary screen-reader-text skiplink" onclick="if (tinymce) { tinymce.execCommand( 'mceFocus', false, 'content' ); }"><?php esc_html_e( 'Skip to Editor' ); ?></a>
-		<?php
-	}
-	?>
+	<a href="#content" class="button-secondary screen-reader-text skiplink" onclick="if (tinymce) { tinymce.execCommand( 'mceFocus', false, 'content' ); }"><?php esc_html_e( 'Skip to Editor' ); ?></a>
 </div>
 	<?php
 	/**

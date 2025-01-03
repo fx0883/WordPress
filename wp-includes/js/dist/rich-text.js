@@ -100,9 +100,9 @@ __webpack_require__.d(actions_namespaceObject, {
   removeFormatTypes: () => (removeFormatTypes)
 });
 
-;// external ["wp","data"]
+;// CONCATENATED MODULE: external ["wp","data"]
 const external_wp_data_namespaceObject = window["wp"]["data"];
-;// ./node_modules/@wordpress/rich-text/build-module/store/reducer.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/store/reducer.js
 /**
  * WordPress dependencies
  */
@@ -136,7 +136,7 @@ function formatTypes(state = {}, action) {
   formatTypes
 }));
 
-;// ./node_modules/@wordpress/rich-text/build-module/store/selectors.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/store/selectors.js
 /**
  * WordPress dependencies
  */
@@ -298,7 +298,7 @@ function getFormatTypeForClassName(state, elementClassName) {
   });
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/store/actions.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/store/actions.js
 /**
  * Returns an action object used in signalling that format types have been
  * added.
@@ -335,7 +335,7 @@ function removeFormatTypes(names) {
   };
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/store/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/store/index.js
 /**
  * WordPress dependencies
  */
@@ -363,7 +363,7 @@ const store = (0,external_wp_data_namespaceObject.createReduxStore)(STORE_NAME, 
 });
 (0,external_wp_data_namespaceObject.register)(store);
 
-;// ./node_modules/@wordpress/rich-text/build-module/is-format-equal.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/is-format-equal.js
 /** @typedef {import('./types').RichTextFormat} RichTextFormat */
 
 /**
@@ -416,7 +416,7 @@ function isFormatEqual(format1, format2) {
   return true;
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/normalise-formats.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/normalise-formats.js
 /**
  * Internal dependencies
  */
@@ -454,7 +454,7 @@ function normaliseFormats(value) {
   };
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/apply-format.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/apply-format.js
 /**
  * Internal dependencies
  */
@@ -542,7 +542,7 @@ function applyFormat(value, format, startIndex = value.start, endIndex = value.e
   });
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/create-element.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/create-element.js
 /**
  * Parse the given HTML into a body element.
  *
@@ -569,7 +569,7 @@ function createElement({
   return createElement.body;
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/special-characters.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/special-characters.js
 /**
  * Object replacement character, used as a placeholder for objects.
  */
@@ -581,9 +581,9 @@ const OBJECT_REPLACEMENT_CHARACTER = '\ufffc';
  */
 const ZWNBSP = '\ufeff';
 
-;// external ["wp","escapeHtml"]
+;// CONCATENATED MODULE: external ["wp","escapeHtml"]
 const external_wp_escapeHtml_namespaceObject = window["wp"]["escapeHtml"];
-;// ./node_modules/@wordpress/rich-text/build-module/get-active-formats.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/get-active-formats.js
 /** @typedef {import('./types').RichTextValue} RichTextValue */
 /** @typedef {import('./types').RichTextFormatList} RichTextFormatList */
 
@@ -667,7 +667,7 @@ function getActiveFormats(value, EMPTY_ACTIVE_FORMATS = []) {
   return _activeFormats || EMPTY_ACTIVE_FORMATS;
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/get-format-type.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/get-format-type.js
 /**
  * WordPress dependencies
  */
@@ -690,7 +690,7 @@ function get_format_type_getFormatType(name) {
   return (0,external_wp_data_namespaceObject.select)(store).getFormatType(name);
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/to-tree.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/to-tree.js
 /**
  * Internal dependencies
  */
@@ -969,7 +969,7 @@ function toTree({
   return tree;
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/to-html-string.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/to-html-string.js
 /**
  * WordPress dependencies
  */
@@ -1082,7 +1082,7 @@ function createChildrenHTML(children = []) {
   }).join('');
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/get-text-content.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/get-text-content.js
 /**
  * Internal dependencies
  */
@@ -1104,7 +1104,7 @@ function getTextContent({
   return text.replace(OBJECT_REPLACEMENT_CHARACTER, '');
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/create.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/create.js
 /**
  * WordPress dependencies
  */
@@ -1690,7 +1690,7 @@ function getAttributes({
   return accumulator;
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/concat.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/concat.js
 /**
  * Internal dependencies
  */
@@ -1728,7 +1728,7 @@ function concat(...values) {
   return normaliseFormats(values.reduce(mergePair, create()));
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/get-active-format.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/get-active-format.js
 /**
  * Internal dependencies
  */
@@ -1755,7 +1755,7 @@ function getActiveFormat(value, formatType) {
   }) => type === formatType);
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/get-active-object.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/get-active-object.js
 /**
  * Internal dependencies
  */
@@ -1784,7 +1784,7 @@ function getActiveObject({
   return replacements[start];
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/is-collapsed.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/is-collapsed.js
 /**
  * Internal dependencies
  */
@@ -1810,7 +1810,7 @@ function isCollapsed({
   return start === end;
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/is-empty.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/is-empty.js
 /** @typedef {import('./types').RichTextValue} RichTextValue */
 
 /**
@@ -1827,7 +1827,7 @@ function isEmpty({
   return text.length === 0;
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/join.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/join.js
 /**
  * Internal dependencies
  */
@@ -1864,7 +1864,7 @@ function join(values, separator = '') {
   })));
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/register-format-type.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/register-format-type.js
 /**
  * WordPress dependencies
  */
@@ -1955,7 +1955,7 @@ function registerFormatType(name, settings) {
   return settings;
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/remove-format.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/remove-format.js
 /**
  * Internal dependencies
  */
@@ -2026,7 +2026,7 @@ function filterFormats(formats, index, formatType) {
   }
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/insert.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/insert.js
 /**
  * Internal dependencies
  */
@@ -2070,7 +2070,7 @@ function insert(value, valueToInsert, startIndex = value.start, endIndex = value
   });
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/remove.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/remove.js
 /**
  * Internal dependencies
  */
@@ -2094,7 +2094,7 @@ function remove_remove(value, startIndex, endIndex) {
   return insert(value, create(), startIndex, endIndex);
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/replace.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/replace.js
 /**
  * Internal dependencies
  */
@@ -2161,7 +2161,7 @@ function replace_replace({
   });
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/insert-object.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/insert-object.js
 /**
  * Internal dependencies
  */
@@ -2193,7 +2193,7 @@ function insertObject(value, formatToInsert, startIndex, endIndex) {
   return insert(value, valueToInsert, startIndex, endIndex);
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/slice.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/slice.js
 /** @typedef {import('./types').RichTextValue} RichTextValue */
 
 /**
@@ -2225,7 +2225,7 @@ function slice(value, startIndex = value.start, endIndex = value.end) {
   };
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/split.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/split.js
 /**
  * Internal dependencies
  */
@@ -2301,7 +2301,7 @@ function splitAtSelection({
   return [before, after];
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/is-range-equal.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/is-range-equal.js
 /**
  * Returns true if two ranges are equal, or false otherwise. Ranges are
  * considered equal if their start and end occur in the same container and
@@ -2316,7 +2316,7 @@ function isRangeEqual(a, b) {
   return a === b || a && b && a.startContainer === b.startContainer && a.startOffset === b.startOffset && a.endContainer === b.endContainer && a.endOffset === b.endOffset;
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/to-dom.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/to-dom.js
 /**
  * Internal dependencies
  */
@@ -2599,11 +2599,11 @@ function applySelection({
   }
 }
 
-;// external ["wp","a11y"]
+;// CONCATENATED MODULE: external ["wp","a11y"]
 const external_wp_a11y_namespaceObject = window["wp"]["a11y"];
-;// external ["wp","i18n"]
+;// CONCATENATED MODULE: external ["wp","i18n"]
 const external_wp_i18n_namespaceObject = window["wp"]["i18n"];
-;// ./node_modules/@wordpress/rich-text/build-module/toggle-format.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/toggle-format.js
 /**
  * WordPress dependencies
  */
@@ -2647,7 +2647,7 @@ function toggleFormat(value, format) {
   return applyFormat(value, format);
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/unregister-format-type.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/unregister-format-type.js
 /**
  * WordPress dependencies
  */
@@ -2679,12 +2679,12 @@ function unregisterFormatType(name) {
   return oldFormat;
 }
 
-;// external ["wp","element"]
+;// CONCATENATED MODULE: external ["wp","element"]
 const external_wp_element_namespaceObject = window["wp"]["element"];
-;// external ["wp","deprecated"]
+;// CONCATENATED MODULE: external ["wp","deprecated"]
 const external_wp_deprecated_namespaceObject = window["wp"]["deprecated"];
 var external_wp_deprecated_default = /*#__PURE__*/__webpack_require__.n(external_wp_deprecated_namespaceObject);
-;// ./node_modules/@wordpress/rich-text/build-module/component/use-anchor-ref.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/component/use-anchor-ref.js
 /**
  * WordPress dependencies
  */
@@ -2760,9 +2760,9 @@ function useAnchorRef({
   }, [activeFormat, value.start, value.end, tagName, className]);
 }
 
-;// external ["wp","compose"]
+;// CONCATENATED MODULE: external ["wp","compose"]
 const external_wp_compose_namespaceObject = window["wp"]["compose"];
-;// ./node_modules/@wordpress/rich-text/build-module/component/use-anchor.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/component/use-anchor.js
 /**
  * WordPress dependencies
  */
@@ -2947,7 +2947,7 @@ function useAnchor({
   return anchor;
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/component/use-default-style.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/component/use-default-style.js
 /**
  * WordPress dependencies
  */
@@ -2990,7 +2990,7 @@ function useDefaultStyle() {
   }, []);
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/component/use-boundary-style.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/component/use-boundary-style.js
 /**
  * WordPress dependencies
  */
@@ -3046,7 +3046,7 @@ function useBoundaryStyle({
   return ref;
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/component/event-listeners/copy-handler.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/component/event-listeners/copy-handler.js
 /**
  * Internal dependencies
  */
@@ -3089,7 +3089,7 @@ function useBoundaryStyle({
   };
 });
 
-;// ./node_modules/@wordpress/rich-text/build-module/component/event-listeners/select-object.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/component/event-listeners/select-object.js
 /* harmony default export */ const select_object = (() => element => {
   function onClick(event) {
     const {
@@ -3136,9 +3136,9 @@ function useBoundaryStyle({
   };
 });
 
-;// external ["wp","keycodes"]
+;// CONCATENATED MODULE: external ["wp","keycodes"]
 const external_wp_keycodes_namespaceObject = window["wp"]["keycodes"];
-;// ./node_modules/@wordpress/rich-text/build-module/component/event-listeners/format-boundaries.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/component/event-listeners/format-boundaries.js
 /**
  * WordPress dependencies
  */
@@ -3240,7 +3240,7 @@ const EMPTY_ACTIVE_FORMATS = [];
   };
 });
 
-;// ./node_modules/@wordpress/rich-text/build-module/component/event-listeners/delete.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/component/event-listeners/delete.js
 /**
  * WordPress dependencies
  */
@@ -3284,7 +3284,7 @@ const EMPTY_ACTIVE_FORMATS = [];
   };
 });
 
-;// ./node_modules/@wordpress/rich-text/build-module/update-formats.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/update-formats.js
 /**
  * Internal dependencies
  */
@@ -3341,7 +3341,7 @@ function updateFormats({
   return value;
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/component/event-listeners/input-and-selection.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/component/event-listeners/input-and-selection.js
 /**
  * Internal dependencies
  */
@@ -3577,7 +3577,7 @@ function fixPlaceholderSelection(defaultView) {
   };
 });
 
-;// ./node_modules/@wordpress/rich-text/build-module/component/event-listeners/selection-change-compat.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/component/event-listeners/selection-change-compat.js
 /**
  * Internal dependencies
  */
@@ -3628,7 +3628,7 @@ function fixPlaceholderSelection(defaultView) {
   };
 });
 
-;// ./node_modules/@wordpress/rich-text/build-module/component/event-listeners/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/component/event-listeners/index.js
 /**
  * WordPress dependencies
  */
@@ -3657,7 +3657,7 @@ function useEventListeners(props) {
   }, [refEffects]);
 }
 
-;// ./node_modules/@wordpress/rich-text/build-module/component/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/component/index.js
 /**
  * WordPress dependencies
  */
@@ -3857,7 +3857,7 @@ function useRichText({
 }
 function __experimentalRichText() {}
 
-;// ./node_modules/@wordpress/rich-text/build-module/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/rich-text/build-module/index.js
 
 
 

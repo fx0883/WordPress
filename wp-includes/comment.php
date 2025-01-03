@@ -3141,8 +3141,8 @@ function pingback( $content, $post ) {
 		$pingback_server_url = discover_pingback_server_uri( $pagelinkedto );
 
 		if ( $pingback_server_url ) {
-			// Allow an additional 60 seconds for each pingback to complete.
 			if ( function_exists( 'set_time_limit' ) ) {
+				// Allows an additional 60 seconds for each pingback to complete.
 				set_time_limit( 60 );
 			}
 
@@ -3658,7 +3658,7 @@ function wp_handle_comment_submission( $comment_data ) {
 	$comment_type = 'comment';
 
 	if ( get_option( 'require_name_email' ) && ! $user->exists() ) {
-		if ( '' === $comment_author_email || '' === $comment_author ) {
+		if ( '' == $comment_author_email || '' == $comment_author ) {
 			return new WP_Error( 'require_name_email', __( '<strong>Error:</strong> Please fill the required fields.' ), 200 );
 		} elseif ( ! is_email( $comment_author_email ) ) {
 			return new WP_Error( 'require_valid_email', __( '<strong>Error:</strong> Please enter a valid email address.' ), 200 );

@@ -73,17 +73,17 @@ __webpack_require__.d(selectors_namespaceObject, {
   get: () => (get)
 });
 
-;// external ["wp","data"]
+;// CONCATENATED MODULE: external ["wp","data"]
 const external_wp_data_namespaceObject = window["wp"]["data"];
-;// external ["wp","components"]
+;// CONCATENATED MODULE: external ["wp","components"]
 const external_wp_components_namespaceObject = window["wp"]["components"];
-;// external ["wp","i18n"]
+;// CONCATENATED MODULE: external ["wp","i18n"]
 const external_wp_i18n_namespaceObject = window["wp"]["i18n"];
-;// external ["wp","primitives"]
+;// CONCATENATED MODULE: external ["wp","primitives"]
 const external_wp_primitives_namespaceObject = window["wp"]["primitives"];
-;// external "ReactJSXRuntime"
+;// CONCATENATED MODULE: external "ReactJSXRuntime"
 const external_ReactJSXRuntime_namespaceObject = window["ReactJSXRuntime"];
-;// ./node_modules/@wordpress/icons/build-module/library/check.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/icons/build-module/library/check.js
 /**
  * WordPress dependencies
  */
@@ -98,9 +98,9 @@ const check = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx)(exte
 });
 /* harmony default export */ const library_check = (check);
 
-;// external ["wp","a11y"]
+;// CONCATENATED MODULE: external ["wp","a11y"]
 const external_wp_a11y_namespaceObject = window["wp"]["a11y"];
-;// ./node_modules/@wordpress/preferences/build-module/store/reducer.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/store/reducer.js
 /**
  * WordPress dependencies
  */
@@ -195,7 +195,7 @@ const preferences = withPersistenceLayer((state = {}, action) => {
   preferences
 }));
 
-;// ./node_modules/@wordpress/preferences/build-module/store/actions.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/store/actions.js
 /**
  * Returns an action object used in signalling that a preference should be
  * toggled.
@@ -282,10 +282,10 @@ async function setPersistenceLayer(persistenceLayer) {
   };
 }
 
-;// external ["wp","deprecated"]
+;// CONCATENATED MODULE: external ["wp","deprecated"]
 const external_wp_deprecated_namespaceObject = window["wp"]["deprecated"];
 var external_wp_deprecated_default = /*#__PURE__*/__webpack_require__.n(external_wp_deprecated_namespaceObject);
-;// ./node_modules/@wordpress/preferences/build-module/store/selectors.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/store/selectors.js
 /**
  * WordPress dependencies
  */
@@ -317,7 +317,7 @@ const get = withDeprecatedKeys((state, scope, name) => {
   return value !== undefined ? value : state.defaults[scope]?.[name];
 });
 
-;// ./node_modules/@wordpress/preferences/build-module/store/constants.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/store/constants.js
 /**
  * The identifier for the data store.
  *
@@ -325,7 +325,7 @@ const get = withDeprecatedKeys((state, scope, name) => {
  */
 const STORE_NAME = 'core/preferences';
 
-;// ./node_modules/@wordpress/preferences/build-module/store/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/store/index.js
 /**
  * WordPress dependencies
  */
@@ -353,7 +353,7 @@ const store = (0,external_wp_data_namespaceObject.createReduxStore)(STORE_NAME, 
 });
 (0,external_wp_data_namespaceObject.register)(store);
 
-;// ./node_modules/@wordpress/preferences/build-module/components/preference-toggle-menu-item/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/components/preference-toggle-menu-item/index.js
 /**
  * WordPress dependencies
  */
@@ -413,10 +413,10 @@ function PreferenceToggleMenuItem({
   });
 }
 
-;// ./node_modules/@wordpress/preferences/build-module/components/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/components/index.js
 
 
-;// ./node_modules/@wordpress/preferences/build-module/components/preference-base-option/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/components/preference-base-option/index.js
 /**
  * WordPress dependencies
  */
@@ -443,7 +443,7 @@ function BaseOption({
 }
 /* harmony default export */ const preference_base_option = (BaseOption);
 
-;// ./node_modules/@wordpress/preferences/build-module/components/preference-toggle-control/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/components/preference-toggle-control/index.js
 /**
  * WordPress dependencies
  */
@@ -478,7 +478,7 @@ function PreferenceToggleControl(props) {
 }
 /* harmony default export */ const preference_toggle_control = (PreferenceToggleControl);
 
-;// ./node_modules/@wordpress/preferences/build-module/components/preferences-modal/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/components/preferences-modal/index.js
 /**
  * WordPress dependencies
  */
@@ -497,7 +497,7 @@ function PreferencesModal({
   });
 }
 
-;// ./node_modules/@wordpress/preferences/build-module/components/preferences-modal-section/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/components/preferences-modal-section/index.js
 
 
 const Section = ({
@@ -522,11 +522,11 @@ const Section = ({
 });
 /* harmony default export */ const preferences_modal_section = (Section);
 
-;// external ["wp","compose"]
+;// CONCATENATED MODULE: external ["wp","compose"]
 const external_wp_compose_namespaceObject = window["wp"]["compose"];
-;// external ["wp","element"]
+;// CONCATENATED MODULE: external ["wp","element"]
 const external_wp_element_namespaceObject = window["wp"]["element"];
-;// ./node_modules/@wordpress/icons/build-module/icon/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/icons/build-module/icon/index.js
 /**
  * WordPress dependencies
  */
@@ -558,7 +558,7 @@ function Icon({
 }
 /* harmony default export */ const icon = ((0,external_wp_element_namespaceObject.forwardRef)(Icon));
 
-;// ./node_modules/@wordpress/icons/build-module/library/chevron-left.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/icons/build-module/library/chevron-left.js
 /**
  * WordPress dependencies
  */
@@ -573,7 +573,7 @@ const chevronLeft = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.jsx
 });
 /* harmony default export */ const chevron_left = (chevronLeft);
 
-;// ./node_modules/@wordpress/icons/build-module/library/chevron-right.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/icons/build-module/library/chevron-right.js
 /**
  * WordPress dependencies
  */
@@ -588,9 +588,9 @@ const chevronRight = /*#__PURE__*/(0,external_ReactJSXRuntime_namespaceObject.js
 });
 /* harmony default export */ const chevron_right = (chevronRight);
 
-;// external ["wp","privateApis"]
+;// CONCATENATED MODULE: external ["wp","privateApis"]
 const external_wp_privateApis_namespaceObject = window["wp"]["privateApis"];
-;// ./node_modules/@wordpress/preferences/build-module/lock-unlock.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/lock-unlock.js
 /**
  * WordPress dependencies
  */
@@ -600,7 +600,7 @@ const {
   unlock
 } = (0,external_wp_privateApis_namespaceObject.__dangerousOptInToUnstableAPIsOnlyForCoreModules)('I acknowledge private features are not for use in themes or plugins and doing so will break in the next version of WordPress.', '@wordpress/preferences');
 
-;// ./node_modules/@wordpress/preferences/build-module/components/preferences-modal-tabs/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/components/preferences-modal-tabs/index.js
 /**
  * WordPress dependencies
  */
@@ -746,7 +746,7 @@ function PreferencesModalTabs({
   return modalContent;
 }
 
-;// ./node_modules/@wordpress/preferences/build-module/private-apis.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/private-apis.js
 /**
  * Internal dependencies
  */
@@ -765,7 +765,7 @@ lock(privateApis, {
   PreferencesModalTabs: PreferencesModalTabs
 });
 
-;// ./node_modules/@wordpress/preferences/build-module/index.js
+;// CONCATENATED MODULE: ./node_modules/@wordpress/preferences/build-module/index.js
 
 
 
