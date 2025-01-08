@@ -1,0 +1,1457 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Nouvo - Template kit for Branding Agency",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/theme.creativemox.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/theme.creativemox.com\/nouvo\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Detail service",
+            "screenshot": "screenshots\/detail-service.jpg",
+            "source": "templates\/detail-service.json",
+            "preview_url": "https:\/\/theme.creativemox.com\/nouvo\/template-kit\/detail-service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Portfolio",
+            "screenshot": "screenshots\/portfolio.jpg",
+            "source": "templates\/portfolio.json",
+            "preview_url": "https:\/\/theme.creativemox.com\/nouvo\/template-kit\/portfolio\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/theme.creativemox.com\/nouvo\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/theme.creativemox.com\/nouvo\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Pricing plan",
+            "screenshot": "screenshots\/pricing-plan.jpg",
+            "source": "templates\/pricing-plan.json",
+            "preview_url": "https:\/\/theme.creativemox.com\/nouvo\/template-kit\/pricing-plan\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/theme.creativemox.com\/nouvo\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/theme.creativemox.com\/nouvo\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact us",
+            "screenshot": "screenshots\/contact-us.jpg",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/theme.creativemox.com\/nouvo\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Nouvo - Error 404",
+            "screenshot": "screenshots\/nouvo-error-404.jpg",
+            "source": "templates\/nouvo-error-404.json",
+            "preview_url": "https:\/\/theme.creativemox.com\/nouvo\/?elementor_library=nouvo-error-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Novoa - Single post",
+            "screenshot": "screenshots\/novoa-single-post.jpg",
+            "source": "templates\/novoa-single-post.json",
+            "preview_url": "https:\/\/theme.creativemox.com\/nouvo\/?elementor_library=novoa-single-post",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Nouvo - Archive blog",
+            "screenshot": "screenshots\/nouvo-archive-blog.jpg",
+            "source": "templates\/nouvo-archive-blog.json",
+            "preview_url": "https:\/\/theme.creativemox.com\/nouvo\/?elementor_library=nouvo-archive-blog",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Nouvo - Footer",
+            "screenshot": "screenshots\/nouvo-footer.jpg",
+            "source": "templates\/nouvo-footer.json",
+            "preview_url": "https:\/\/theme.creativemox.com\/nouvo\/?elementor_library=nouvo-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Nouvo - Header",
+            "screenshot": "screenshots\/nouvo-header.jpg",
+            "source": "templates\/nouvo-header.json",
+            "preview_url": "https:\/\/theme.creativemox.com\/nouvo\/?elementor_library=nouvo-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "3.0.7",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Skyboot Custom Icons for Elementor - Elementor Icons library",
+            "version": "1.0.8",
+            "file": "skyboot-custom-icons-for-elementor\/skyboot-custom-icons-for-elementor.php",
+            "author": "Skybootstrap"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.19.2",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.20.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "bokeh-pattern-on-a-colorful-background.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/bokeh-pattern-on-a-colorful-background-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 85270,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-3NUQ3WH"
+        },
+        {
+            "filename": "were-a-happy-team-shot-of-a-group-of-businesspeople-at-work-.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/were-a-happy-team-shot-of-a-group-of-businesspeople-at-work--800x518.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 125004,
+            "dimensions": [
+                1280,
+                829
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-9CPXJWC"
+        },
+        {
+            "filename": "Badge_img.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/Badge_img.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 38742,
+            "dimensions": [
+                350,
+                350
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bg_heading.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/bg_heading.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail service"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                },
+                {
+                    "source": "templates\/nouvo-error-404.json",
+                    "name": "Nouvo - Error 404"
+                },
+                {
+                    "source": "templates\/novoa-single-post.json",
+                    "name": "Novoa - Single post"
+                },
+                {
+                    "source": "templates\/nouvo-archive-blog.json",
+                    "name": "Nouvo - Archive blog"
+                }
+            ],
+            "filesize": 20000,
+            "dimensions": [
+                640,
+                250
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bg_header_center.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/bg_header_center-800x518.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail service"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                },
+                {
+                    "source": "templates\/nouvo-error-404.json",
+                    "name": "Nouvo - Error 404"
+                },
+                {
+                    "source": "templates\/novoa-single-post.json",
+                    "name": "Novoa - Single post"
+                },
+                {
+                    "source": "templates\/nouvo-archive-blog.json",
+                    "name": "Nouvo - Archive blog"
+                }
+            ],
+            "filesize": 121046,
+            "dimensions": [
+                1080,
+                699
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "velocity-9.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/velocity-9-800x206.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 38343,
+            "dimensions": [
+                2333,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "solaytic.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/solaytic-800x257.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 26622,
+            "dimensions": [
+                1870,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "muzica.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/muzica-800x200.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 26718,
+            "dimensions": [
+                2400,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "lighting.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/lighting-800x258.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 15621,
+            "dimensions": [
+                1860,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "ideaa.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/ideaa-800x271.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 31228,
+            "dimensions": [
+                1770,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "hex-lab.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/hex-lab-800x229.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 12283,
+            "dimensions": [
+                2100,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "fox-hub.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/fox-hub-800x187.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 15676,
+            "dimensions": [
+                2566,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "earth-2.0.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/earth-2.0-800x190.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 54681,
+            "dimensions": [
+                2520,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "code-lab.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/code-lab-800x211.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 18477,
+            "dimensions": [
+                2280,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "aven.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/aven-800x239.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 30416,
+            "dimensions": [
+                2010,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/uilogos.co\/"
+        },
+        {
+            "filename": "business-colleagues-using-laptop-and-analyzing-documents-on-a-meeting-in-cafe-.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/business-colleagues-using-laptop-and-analyzing-documents-on-a-meeting-in-cafe--800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                }
+            ],
+            "filesize": 132914,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-WDMS7QM"
+        },
+        {
+            "filename": "team-work-hands-or-creative-business-people-in-a-meeting-planning-a-logo-branding-or-marketing-co.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/team-work-hands-or-creative-business-people-in-a-meeting-planning-a-logo-branding-or-marketing-co-800x594.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 157935,
+            "dimensions": [
+                1280,
+                951
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-MKU9QVE"
+        },
+        {
+            "filename": "bg_img.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/bg_img.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail service"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact us"
+                },
+                {
+                    "source": "templates\/novoa-single-post.json",
+                    "name": "Novoa - Single post"
+                },
+                {
+                    "source": "templates\/nouvo-archive-blog.json",
+                    "name": "Nouvo - Archive blog"
+                }
+            ],
+            "filesize": 349,
+            "dimensions": [
+                100,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img__12.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/img__12.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                }
+            ],
+            "filesize": 27636,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "img__07.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/img__07.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 32345,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "img__02.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/img__02.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                }
+            ],
+            "filesize": 30353,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "img__04.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/img__04.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/pricing-plan.json",
+                    "name": "Pricing plan"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 34108,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "success-is-the-product-of-teamwork.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/success-is-the-product-of-teamwork-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail service"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 110098,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-YX8XVC5"
+        },
+        {
+            "filename": "icon_1.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/icon_1.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 110885,
+            "dimensions": [
+                800,
+                762
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon_2.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/icon_2.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 16995,
+            "dimensions": [
+                800,
+                725
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon_3.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/icon_3.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 17938,
+            "dimensions": [
+                800,
+                600
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon_4.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/icon_4.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 121638,
+            "dimensions": [
+                800,
+                688
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "dashboard_mockup.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/dashboard_mockup.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail service"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 24135,
+            "dimensions": [
+                450,
+                640
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "happy-team-stacking-hands-on-a-creative-ideas-chart.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/happy-team-stacking-hands-on-a-creative-ideas-chart-800x610.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail service"
+                }
+            ],
+            "filesize": 209615,
+            "dimensions": [
+                1280,
+                977
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7RCRPD6"
+        },
+        {
+            "filename": "map_bg.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/map_bg-800x449.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 34831,
+            "dimensions": [
+                1080,
+                606
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/square-dotted-world-map-and-earth-globes-Q676QDA"
+        },
+        {
+            "filename": "img__13.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/img__13.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 35201,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "img__11.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/img__11.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 48708,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "Top-5-Screen-Resolution.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/Top-5-Screen-Resolution.png",
+            "templates": [
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail service"
+                }
+            ],
+            "filesize": 15927,
+            "dimensions": [
+                555,
+                370
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Top-Social-Networks.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/Top-Social-Networks.png",
+            "templates": [
+                {
+                    "source": "templates\/detail-service.json",
+                    "name": "Detail service"
+                }
+            ],
+            "filesize": 15770,
+            "dimensions": [
+                263,
+                370
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "white-cosmetic-bottle-on-podium-ingredients-for-skin-care-packaging-product-for-mockup-.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/white-cosmetic-bottle-on-podium-ingredients-for-skin-care-packaging-product-for-mockup--800x606.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 40188,
+            "dimensions": [
+                1280,
+                970
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-JVUAWZ6"
+        },
+        {
+            "filename": "premium-quality-mockup-ready-to-use.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/premium-quality-mockup-ready-to-use-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 38539,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-DSAWPK5"
+        },
+        {
+            "filename": "3d-illustration-mockup-of-skincare-bottle-packaging-.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/3d-illustration-mockup-of-skincare-bottle-packaging--800x604.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 35978,
+            "dimensions": [
+                1280,
+                966
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-AH9EVS3"
+        },
+        {
+            "filename": "3d-illustration-dropper-bottle-mockup-.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/3d-illustration-dropper-bottle-mockup--800x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 22525,
+            "dimensions": [
+                1280,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-EDWZGLF"
+        },
+        {
+            "filename": "vertical-frame-mockup-interior-mockup-kids-room-wall-frame-mockup-.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/vertical-frame-mockup-interior-mockup-kids-room-wall-frame-mockup--800x686.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 67953,
+            "dimensions": [
+                1280,
+                1097
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-L5UKU4W"
+        },
+        {
+            "filename": "mockup-with-white-mug-cup-for-tea-or-coffee-on-pink-background.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/mockup-with-white-mug-cup-for-tea-or-coffee-on-pink-background-800x640.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 36314,
+            "dimensions": [
+                1280,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-RHCBDDH"
+        },
+        {
+            "filename": "cropped-view-of-woman-pointing-with-pencil-on-branding-inscription-on-cork-board.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/cropped-view-of-woman-pointing-with-pencil-on-branding-inscription-on-cork-board-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About us"
+                }
+            ],
+            "filesize": 136111,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-NKZMWZ2"
+        },
+        {
+            "filename": "presentation-tablet-and-planning-with-business-people-in-meeting-for-review-agenda-and-branding-i.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/presentation-tablet-and-planning-with-business-people-in-meeting-for-review-agenda-and-branding-i-800x422.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 90306,
+            "dimensions": [
+                1280,
+                675
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-MZNS35Q"
+        },
+        {
+            "filename": "bg_img_2.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/bg_img_2.png",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 76704,
+            "dimensions": [
+                640,
+                640
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img__01.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/img__01.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 38912,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "img__16.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/img__16.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 50944,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "img__06.jpg",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/img__06.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 37406,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "img_2.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/img_2.png",
+            "templates": [
+                {
+                    "source": "templates\/novoa-single-post.json",
+                    "name": "Novoa - Single post"
+                },
+                {
+                    "source": "templates\/nouvo-footer.json",
+                    "name": "Nouvo - Footer"
+                }
+            ],
+            "filesize": 18794,
+            "dimensions": [
+                203,
+                250
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo_nouvo_.png",
+            "thumbnail_url": "http:\/\/theme.creativemox.com\/nouvo\/wp-content\/uploads\/sites\/33\/2024\/03\/logo_nouvo_.png",
+            "templates": [
+                {
+                    "source": "templates\/nouvo-footer.json",
+                    "name": "Nouvo - Footer"
+                },
+                {
+                    "source": "templates\/nouvo-header.json",
+                    "name": "Nouvo - Header"
+                }
+            ],
+            "filesize": 17957,
+            "dimensions": [
+                485,
+                154
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}
